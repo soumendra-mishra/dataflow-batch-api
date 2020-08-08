@@ -1,0 +1,5 @@
+runtime: nodejs10
+service: dataflow-batch-api
+
+env_variables:
+  GCP_PROJECT_ID: "data-lab"

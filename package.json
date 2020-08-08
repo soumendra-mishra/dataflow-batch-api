@@ -1,0 +1,37 @@
+{
+  "name": "dataflow-batch-api",
+  "description": "Submit DataFlow Templates using App Engine environment",
+  "version": "0.0.1",
+  "private": true,
+  "license": "Apache-2.0",
+  "author": "Soumendra Mishra",
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "@google-cloud/bigquery": "^4.7.0",
+    "@google-cloud/firestore": "^2.6.0",
+    "@google-cloud/kms": "^1.5.1",
+    "@google-cloud/pubsub": "^1.1.5",
+    "@google-cloud/resource": "^1.1.5",
+    "@google-cloud/scheduler": "^1.4.3",
+    "@google-cloud/storage": "^4.1.2",
+    "@okta/jwt-verifier": "1.0.0",
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.3",
+    "google-auth-library": "^5.9.2",
+    "googleapis": "^47.0.0",
+    "moment": "^2.24.0",
+    "node-gcm": "^1.0.2"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.2",
+    "supertest": "^4.0.2"
+  }
+}
